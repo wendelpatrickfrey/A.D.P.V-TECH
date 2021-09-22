@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BGM_FORMS.Control;
+using BGM_FORMS.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,5 +19,31 @@ namespace BGM_FORMS
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new CadastroScreen().Show();
+            this.Hide();
+        }
+
+        private void btnlogar_Click(object sender, EventArgs e)
+        {
+            int funcao = Controller.Login(txtusuario.Text,txtsenha.Text);
+            if (funcao == 1)
+            {
+                new AdminScreen().Show();
+                this.Hide();
+            }
+            else if (funcao == 0)
+            {
+                new AnalistaScreen().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Credenciais Incorretas");
+            }
+            txtusuario.Clear();
+            txtsenha.Clear();
+        }
     }
 }

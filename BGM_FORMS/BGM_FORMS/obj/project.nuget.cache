@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "PA3TmXslOR4MhXAiAyZEM/WljNlKxXMB44QS0CgxpJ8Id4qXI2tjQEWa6xC6P5KHw8XP2J0wRQSZ+PgYiGzOkw==",
+  "dgSpecHash": "q0Ews/efrxmWPF0ic5ESQ2fYUJi1k1QnNE9m8fppsSJeV/vJLUzoauwSKNUQF6J2GQUQE+Z1PE+ov45EGUdK1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\wendel.frey\\Documents\\GitHub TCC\\A.D.P.V-TECH\\BGM_FORMS\\BGM_FORMS\\BGM_FORMS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\wendel.frey\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

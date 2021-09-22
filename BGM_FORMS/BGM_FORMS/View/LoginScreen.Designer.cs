@@ -103,6 +103,7 @@ namespace BGM_FORMS
             this.btnlogar.TabIndex = 5;
             this.btnlogar.Text = "Logar";
             this.btnlogar.UseVisualStyleBackColor = false;
+            this.btnlogar.Click += new System.EventHandler(this.btnlogar_Click);
             // 
             // LoginScreen
             // 
