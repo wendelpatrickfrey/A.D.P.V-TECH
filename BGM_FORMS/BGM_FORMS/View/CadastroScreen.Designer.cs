@@ -34,13 +34,14 @@ namespace BGM_FORMS.View
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblnome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(389, 99);
+            this.textBox1.Location = new System.Drawing.Point(389, 94);
             this.textBox1.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(230, 25);
@@ -49,7 +50,7 @@ namespace BGM_FORMS.View
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(404, 231);
+            this.textBox2.Location = new System.Drawing.Point(378, 318);
             this.textBox2.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(230, 25);
@@ -58,7 +59,7 @@ namespace BGM_FORMS.View
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(416, 360);
+            this.textBox3.Location = new System.Drawing.Point(378, 416);
             this.textBox3.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(230, 25);
@@ -73,11 +74,22 @@ namespace BGM_FORMS.View
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // lblnome
+            // 
+            this.lblnome.AutoSize = true;
+            this.lblnome.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblnome.Location = new System.Drawing.Point(389, 55);
+            this.lblnome.Name = "lblnome";
+            this.lblnome.Size = new System.Drawing.Size(80, 32);
+            this.lblnome.TabIndex = 4;
+            this.lblnome.Text = "Nome";
+            // 
             // CadastroScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 586);
+            this.Controls.Add(this.lblnome);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -99,5 +111,6 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblnome;
     }
 }

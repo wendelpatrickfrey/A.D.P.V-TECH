@@ -39,6 +39,7 @@ namespace BGM_FORMS
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -52,6 +53,7 @@ namespace BGM_FORMS
             // 
             // txtusuario
             // 
+            this.txtusuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtusuario.Location = new System.Drawing.Point(277, 202);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(402, 43);
@@ -59,6 +61,7 @@ namespace BGM_FORMS
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(277, 162);
@@ -69,6 +72,7 @@ namespace BGM_FORMS
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(277, 283);
@@ -79,17 +83,21 @@ namespace BGM_FORMS
             // 
             // txtsenha
             // 
+            this.txtsenha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtsenha.Location = new System.Drawing.Point(277, 323);
             this.txtsenha.Name = "txtsenha";
+            this.txtsenha.PasswordChar = '*';
             this.txtsenha.Size = new System.Drawing.Size(402, 43);
             this.txtsenha.TabIndex = 4;
             // 
             // btnlogar
             // 
+            this.btnlogar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnlogar.BackColor = System.Drawing.Color.DarkBlue;
             this.btnlogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlogar.ForeColor = System.Drawing.Color.White;
-            this.btnlogar.Location = new System.Drawing.Point(398, 408);
+            this.btnlogar.Location = new System.Drawing.Point(401, 408);
             this.btnlogar.Name = "btnlogar";
             this.btnlogar.Size = new System.Drawing.Size(151, 58);
             this.btnlogar.TabIndex = 5;
