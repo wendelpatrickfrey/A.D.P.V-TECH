@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BGM_FORMS
 {
-    public partial class Form1 : Form
+    public partial class LoginScreen : Form
     {
-        public Form1()
+        public LoginScreen()
         {
             InitializeComponent();
         }
