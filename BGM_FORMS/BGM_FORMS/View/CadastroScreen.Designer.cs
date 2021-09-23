@@ -29,11 +29,9 @@ namespace BGM_FORMS.View
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroScreen));
             this.txtnome = new System.Windows.Forms.TextBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.txtsenha = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblnome = new System.Windows.Forms.Label();
             this.lblusuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,7 +41,8 @@ namespace BGM_FORMS.View
             this.txtConfirmaSenha = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btncadastrar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtnome
@@ -73,15 +72,6 @@ namespace BGM_FORMS.View
             this.txtsenha.PasswordChar = '*';
             this.txtsenha.Size = new System.Drawing.Size(230, 25);
             this.txtsenha.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-14, -19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(354, 618);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // lblnome
             // 
@@ -156,10 +146,10 @@ namespace BGM_FORMS.View
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Red;
+            this.label4.BackColor = System.Drawing.Color.RoyalBlue;
             this.label4.Font = new System.Drawing.Font("Roboto Cn", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(58, 261);
+            this.label4.Location = new System.Drawing.Point(4, 267);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(196, 48);
             this.label4.TabIndex = 11;
@@ -167,7 +157,7 @@ namespace BGM_FORMS.View
             // 
             // btncadastrar
             // 
-            this.btncadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btncadastrar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btncadastrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btncadastrar.Location = new System.Drawing.Point(532, 490);
             this.btncadastrar.Name = "btncadastrar";
@@ -177,13 +167,22 @@ namespace BGM_FORMS.View
             this.btncadastrar.UseVisualStyleBackColor = false;
             this.btncadastrar.Click += new System.EventHandler(this.btncadastrar_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 586);
+            this.panel1.TabIndex = 13;
+            // 
             // CadastroScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 586);
             this.Controls.Add(this.btncadastrar);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtConfirmaSenha);
             this.Controls.Add(this.label2);
@@ -191,17 +190,18 @@ namespace BGM_FORMS.View
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblusuario);
             this.Controls.Add(this.lblnome);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtsenha);
             this.Controls.Add(this.txtusuario);
             this.Controls.Add(this.txtnome);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CadastroScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroScreen";
             this.Load += new System.EventHandler(this.CadastroScreen_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,7 +212,6 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.TextBox txtnome;
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.TextBox txtsenha;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblnome;
         private System.Windows.Forms.Label lblusuario;
         private System.Windows.Forms.Label label1;
@@ -222,5 +221,6 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.TextBox txtConfirmaSenha;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btncadastrar;
+        private System.Windows.Forms.Panel panel1;
     }
 }

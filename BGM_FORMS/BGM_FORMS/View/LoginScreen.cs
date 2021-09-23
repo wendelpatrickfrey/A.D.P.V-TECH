@@ -28,14 +28,9 @@ namespace BGM_FORMS
         private void btnlogar_Click(object sender, EventArgs e)
         {
             int funcao = Controller.Login(txtusuario.Text,txtsenha.Text);
-            if (funcao == 1)
+            if (funcao != -1)
             {
-                new AdminScreen().Show();
-                this.Hide();
-            }
-            else if (funcao == 0)
-            {
-                new AnalistaScreen().Show();
+                new MenuScreen().Show();
                 this.Hide();
             }
             else
@@ -44,6 +39,11 @@ namespace BGM_FORMS
             }
             txtusuario.Clear();
             txtsenha.Clear();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
