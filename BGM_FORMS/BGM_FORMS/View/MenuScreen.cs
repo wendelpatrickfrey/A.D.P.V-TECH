@@ -17,7 +17,48 @@ namespace BGM_FORMS.View
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        
+
+        private void MenuScreen_Load(object sender, EventArgs e)
+        {
+            //btnMenu.Parent = MenuAcima;
+            //btnMenu.BackColor = Color.Transparent;
+        }
+
+        private void botaoteste_Click(object sender, EventArgs e)
+        {
+            openChildForm(new AdminScreen());
+
+
+        }
+        //Abrir forms dentro do forms
+        private Form activeform = null;
+        private void openChildForm(Form ChildForm)
+        {
+            if (activeform != null)
+                activeform.Close();
+            activeform = ChildForm;
+            ChildForm.TopLevel = false;
+            ChildForm.FormBorderStyle = FormBorderStyle.None;
+            ChildForm.Dock = DockStyle.Fill;
+            painelteste.Controls.Add(ChildForm);
+            painelteste.Tag = ChildForm;
+            ChildForm.BringToFront();
+            ChildForm.Show();
+
+
+
+
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Ocorrencias());
+
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
         {
             if (MenuLateral.Width == 77)
             {
@@ -27,14 +68,24 @@ namespace BGM_FORMS.View
             {
                 MenuLateral.Width = 77;
             }
-
-
         }
 
-        private void MenuScreen_Load(object sender, EventArgs e)
+        
+
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
-            //btnMenu.Parent = MenuAcima;
-            //btnMenu.BackColor = Color.Transparent;
+            openChildForm(new Acordo());
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Ajuizado());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new CadastroScreen().Show();
+            this.Hide();
         }
     }
 }

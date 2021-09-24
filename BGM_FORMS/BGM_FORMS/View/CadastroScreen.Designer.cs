@@ -42,13 +42,14 @@ namespace BGM_FORMS.View
             this.label4 = new System.Windows.Forms.Label();
             this.btncadastrar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtnome
             // 
             this.txtnome.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtnome.Location = new System.Drawing.Point(372, 114);
+            this.txtnome.Location = new System.Drawing.Point(336, 114);
             this.txtnome.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(230, 25);
@@ -57,7 +58,7 @@ namespace BGM_FORMS.View
             // txtusuario
             // 
             this.txtusuario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtusuario.Location = new System.Drawing.Point(699, 114);
+            this.txtusuario.Location = new System.Drawing.Point(663, 114);
             this.txtusuario.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(230, 25);
@@ -66,7 +67,7 @@ namespace BGM_FORMS.View
             // txtsenha
             // 
             this.txtsenha.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtsenha.Location = new System.Drawing.Point(372, 221);
+            this.txtsenha.Location = new System.Drawing.Point(336, 221);
             this.txtsenha.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtsenha.Name = "txtsenha";
             this.txtsenha.PasswordChar = '*';
@@ -77,7 +78,7 @@ namespace BGM_FORMS.View
             // 
             this.lblnome.AutoSize = true;
             this.lblnome.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblnome.Location = new System.Drawing.Point(372, 75);
+            this.lblnome.Location = new System.Drawing.Point(336, 75);
             this.lblnome.Name = "lblnome";
             this.lblnome.Size = new System.Drawing.Size(90, 37);
             this.lblnome.TabIndex = 4;
@@ -87,7 +88,7 @@ namespace BGM_FORMS.View
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblusuario.Location = new System.Drawing.Point(699, 72);
+            this.lblusuario.Location = new System.Drawing.Point(663, 72);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(108, 37);
             this.lblusuario.TabIndex = 5;
@@ -97,7 +98,7 @@ namespace BGM_FORMS.View
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(372, 184);
+            this.label1.Location = new System.Drawing.Point(336, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 37);
             this.label1.TabIndex = 6;
@@ -108,7 +109,7 @@ namespace BGM_FORMS.View
             this.cbFuncao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFuncao.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbFuncao.FormattingEnabled = true;
-            this.cbFuncao.Location = new System.Drawing.Point(544, 345);
+            this.cbFuncao.Location = new System.Drawing.Point(508, 345);
             this.cbFuncao.Name = "cbFuncao";
             this.cbFuncao.Size = new System.Drawing.Size(230, 25);
             this.cbFuncao.TabIndex = 7;
@@ -117,7 +118,7 @@ namespace BGM_FORMS.View
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(603, 305);
+            this.label2.Location = new System.Drawing.Point(567, 305);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 37);
             this.label2.TabIndex = 8;
@@ -127,7 +128,7 @@ namespace BGM_FORMS.View
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(699, 184);
+            this.label3.Location = new System.Drawing.Point(663, 184);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(214, 37);
             this.label3.TabIndex = 10;
@@ -136,7 +137,7 @@ namespace BGM_FORMS.View
             // txtConfirmaSenha
             // 
             this.txtConfirmaSenha.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConfirmaSenha.Location = new System.Drawing.Point(699, 221);
+            this.txtConfirmaSenha.Location = new System.Drawing.Point(663, 221);
             this.txtConfirmaSenha.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.txtConfirmaSenha.Name = "txtConfirmaSenha";
             this.txtConfirmaSenha.PasswordChar = '*';
@@ -159,7 +160,7 @@ namespace BGM_FORMS.View
             // 
             this.btncadastrar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btncadastrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btncadastrar.Location = new System.Drawing.Point(532, 490);
+            this.btncadastrar.Location = new System.Drawing.Point(498, 486);
             this.btncadastrar.Name = "btncadastrar";
             this.btncadastrar.Size = new System.Drawing.Size(247, 71);
             this.btncadastrar.TabIndex = 12;
@@ -177,11 +178,24 @@ namespace BGM_FORMS.View
             this.panel1.Size = new System.Drawing.Size(200, 586);
             this.panel1.TabIndex = 13;
             // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox2.Location = new System.Drawing.Point(781, 256);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(112, 25);
+            this.checkBox2.TabIndex = 15;
+            this.checkBox2.Text = "Exibir senha";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
             // CadastroScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 586);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.btncadastrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtConfirmaSenha);
@@ -222,5 +236,6 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btncadastrar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }

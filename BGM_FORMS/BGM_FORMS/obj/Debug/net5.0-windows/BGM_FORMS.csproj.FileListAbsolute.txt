@@ -28,3 +28,6 @@ C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\D
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.AdminScreen.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.AnalistaScreen.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.MenuScreen.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Ocorrencias.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Acordo.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Ajuizado.resources

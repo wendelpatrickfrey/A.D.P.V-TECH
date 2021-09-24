@@ -57,5 +57,21 @@ namespace BGM_FORMS.View
             txtConfirmaSenha.Clear();
             cbFuncao.Text = "";
         }
+
+        
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                txtsenha.PasswordChar = '\0';
+                txtConfirmaSenha.PasswordChar = '\0';
+            }
+            else
+            {
+                txtsenha.PasswordChar = '*';
+                txtConfirmaSenha.PasswordChar = '*';
+            }
+        }
     }
 }

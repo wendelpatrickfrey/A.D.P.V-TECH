@@ -1,7 +1,7 @@
 ﻿
 namespace BGM_FORMS.View
 {
-    partial class AdminScreen
+    partial class Ocorrencias
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,39 @@ namespace BGM_FORMS.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnfecharadm = new System.Windows.Forms.Button();
+            this.btnfecharOcorrencia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnfecharadm
+            // btnfecharOcorrencia
             // 
-            this.btnfecharadm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnfecharadm.Location = new System.Drawing.Point(902, 12);
-            this.btnfecharadm.Name = "btnfecharadm";
-            this.btnfecharadm.Size = new System.Drawing.Size(91, 53);
-            this.btnfecharadm.TabIndex = 1;
-            this.btnfecharadm.Text = "X";
-            this.btnfecharadm.UseVisualStyleBackColor = true;
-            this.btnfecharadm.Click += new System.EventHandler(this.btnfecharadm_Click);
+            this.btnfecharOcorrencia.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnfecharOcorrencia.Location = new System.Drawing.Point(869, 28);
+            this.btnfecharOcorrencia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
+            this.btnfecharOcorrencia.Size = new System.Drawing.Size(106, 66);
+            this.btnfecharOcorrencia.TabIndex = 0;
+            this.btnfecharOcorrencia.Text = "X";
+            this.btnfecharOcorrencia.UseVisualStyleBackColor = true;
+            this.btnfecharOcorrencia.Click += new System.EventHandler(this.btnfecharOcorrencia_Click);
             // 
-            // AdminScreen
+            // Ocorrencias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1014, 586);
-            this.Controls.Add(this.btnfecharadm);
+            this.Controls.Add(this.btnfecharOcorrencia);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.Name = "AdminScreen";
-            this.Text = "AdminScreen";
+            this.Name = "Ocorrencias";
+            this.Text = "Ocorrencias";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnfecharadm;
+
+        private System.Windows.Forms.Button btnfecharOcorrencia;
     }
 }

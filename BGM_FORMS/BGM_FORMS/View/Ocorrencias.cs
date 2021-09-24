@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace BGM_FORMS.View
 {
-    public partial class AdminScreen : Form
+    public partial class Ocorrencias : Form
     {
-        public AdminScreen()
+        public Ocorrencias()
         {
             InitializeComponent();
         }
 
-        private void btnfecharadm_Click(object sender, EventArgs e)
+        private void btnfecharOcorrencia_Click(object sender, EventArgs e)
         {
             this.Close();
         }
