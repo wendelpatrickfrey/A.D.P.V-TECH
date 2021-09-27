@@ -34,10 +34,12 @@ namespace BGM_FORMS.View
             // 
             // btnfecharOcorrencia
             // 
+            this.btnfecharOcorrencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnfecharOcorrencia.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnfecharOcorrencia.Location = new System.Drawing.Point(707, 12);
+            this.btnfecharOcorrencia.Location = new System.Drawing.Point(854, 16);
+            this.btnfecharOcorrencia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
-            this.btnfecharOcorrencia.Size = new System.Drawing.Size(81, 45);
+            this.btnfecharOcorrencia.Size = new System.Drawing.Size(97, 58);
             this.btnfecharOcorrencia.TabIndex = 1;
             this.btnfecharOcorrencia.Text = "X";
             this.btnfecharOcorrencia.UseVisualStyleBackColor = true;
@@ -45,12 +47,15 @@ namespace BGM_FORMS.View
             // 
             // Ajuizado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1014, 586);
             this.Controls.Add(this.btnfecharOcorrencia);
+            this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Ajuizado";
             this.Text = "Ajuizado";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
