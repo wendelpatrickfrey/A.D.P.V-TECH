@@ -21,5 +21,20 @@ namespace BGM_FORMS.View
         {
             this.Close();
         }
+
+       
+
+        //MenuLateral "animação"
+        //private void btnMenu_Click(object sender, EventArgs e)
+        //{
+        //    if (PainelLateralAcordos.Width == 77)
+        //    {
+        //        PainelLateralAcordos.Width = 200;
+        //    }
+        //    else
+        //    {
+        //        PainelLateralAcordos.Width = 77;
+        //    }
+        //}
     }
 }

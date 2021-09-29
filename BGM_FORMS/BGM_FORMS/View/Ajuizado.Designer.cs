@@ -41,7 +41,7 @@ namespace BGM_FORMS.View
             this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
             this.btnfecharOcorrencia.Size = new System.Drawing.Size(97, 58);
             this.btnfecharOcorrencia.TabIndex = 1;
-            this.btnfecharOcorrencia.Text = "X";
+            this.btnfecharOcorrencia.Text = "<--";
             this.btnfecharOcorrencia.UseVisualStyleBackColor = true;
             this.btnfecharOcorrencia.Click += new System.EventHandler(this.btnfecharOcorrencia_Click);
             // 
@@ -49,6 +49,7 @@ namespace BGM_FORMS.View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(1014, 586);
             this.Controls.Add(this.btnfecharOcorrencia);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);

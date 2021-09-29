@@ -29,29 +29,32 @@ namespace BGM_FORMS.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnfecharOcorrencia = new System.Windows.Forms.Button();
+            this.btnVoltarOcorrencias = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnfecharOcorrencia
+            // btnVoltarOcorrencias
             // 
-            this.btnfecharOcorrencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnfecharOcorrencia.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnfecharOcorrencia.Location = new System.Drawing.Point(869, 28);
-            this.btnfecharOcorrencia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
-            this.btnfecharOcorrencia.Size = new System.Drawing.Size(106, 66);
-            this.btnfecharOcorrencia.TabIndex = 0;
-            this.btnfecharOcorrencia.Text = "X";
-            this.btnfecharOcorrencia.UseVisualStyleBackColor = true;
-            this.btnfecharOcorrencia.Click += new System.EventHandler(this.btnfecharOcorrencia_Click);
+            this.btnVoltarOcorrencias.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnVoltarOcorrencias.BackColor = System.Drawing.Color.Tomato;
+            this.btnVoltarOcorrencias.FlatAppearance.BorderSize = 0;
+            this.btnVoltarOcorrencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltarOcorrencias.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVoltarOcorrencias.ForeColor = System.Drawing.Color.White;
+            this.btnVoltarOcorrencias.Location = new System.Drawing.Point(12, 525);
+            this.btnVoltarOcorrencias.Name = "btnVoltarOcorrencias";
+            this.btnVoltarOcorrencias.Size = new System.Drawing.Size(152, 49);
+            this.btnVoltarOcorrencias.TabIndex = 1;
+            this.btnVoltarOcorrencias.Text = "Voltar";
+            this.btnVoltarOcorrencias.UseVisualStyleBackColor = false;
+            this.btnVoltarOcorrencias.Click += new System.EventHandler(this.btnVoltarOcorrencias_Click);
             // 
             // Ocorrencias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(1014, 586);
-            this.Controls.Add(this.btnfecharOcorrencia);
+            this.Controls.Add(this.btnVoltarOcorrencias);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Ocorrencias";
@@ -62,7 +65,6 @@ namespace BGM_FORMS.View
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnfecharOcorrencia;
+        private System.Windows.Forms.Button btnVoltarOcorrencias;
     }
 }

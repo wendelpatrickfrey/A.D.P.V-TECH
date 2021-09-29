@@ -25,67 +25,61 @@ namespace BGM_FORMS.View
             //btnMenu.BackColor = Color.Transparent;
         }
 
-        private void botaoteste_Click(object sender, EventArgs e)
+
+        //MenuLateral "animação"
+        //private void btnMenu_Click(object sender, EventArgs e)
+        //{
+        //    if (MenuLateral.Width == 77)
+        //    {
+        //        MenuLateral.Width = 200;
+        //    }
+        //    else
+        //    {
+        //        MenuLateral.Width = 77;
+        //    }
+        //}
+
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
-            openChildForm(new AdminScreen());
-
-
-        }
-        //Abrir forms dentro do forms
-        private Form activeform = null;
-        private void openChildForm(Form ChildForm)
-        {
-            if (activeform != null)
-                activeform.Close();
-            activeform = ChildForm;
-            ChildForm.TopLevel = false;
-            ChildForm.FormBorderStyle = FormBorderStyle.None;
-            ChildForm.Dock = DockStyle.Fill;
-            painelteste.Controls.Add(ChildForm);
-            painelteste.Tag = ChildForm;
-            ChildForm.BringToFront();
-            ChildForm.Show();
-
-
-
-
-
+            new Acordo().Show();
+            this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            openChildForm(new Ocorrencias());
-
-        }
-
-        private void btnMenu_Click(object sender, EventArgs e)
-        {
-            if (MenuLateral.Width == 77)
-            {
-                MenuLateral.Width = 200;
-            }
-            else
-            {
-                MenuLateral.Width = 77;
-            }
-        }
-
-        
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            openChildForm(new Acordo());
+            new Ocorrencias().Show();
+            this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            openChildForm(new Ajuizado());
+            new Ajuizado().Show();
+            this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            new CadastroScreen().Show();
-            this.Hide();
+
+        }
+
+        private void lblNomeVazio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
