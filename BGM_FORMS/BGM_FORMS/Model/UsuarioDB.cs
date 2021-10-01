@@ -38,5 +38,21 @@ namespace BGM_FORMS.Model
             DBConnection.Connection.Close();
             return temp;
         }
+        public static string SelectUsuario(string usuario)
+        {
+            string confere = "";
+            string select = $"SELECT Usuario from dbo.CadastroBGM WHERE Usuario = '{usuario}' ";
+            SqlCommand cmd = new SqlCommand(select, DBConnection.Connection);
+            DBConnection.Connection.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                confere = dr[0].ToString();
+            }           
+            dr.Close();
+            DBConnection.Connection.Close();
+
+            return confere;
+        }
     }
 }

@@ -33,5 +33,18 @@ namespace BGM_FORMS.Control
             }
             return funcao;
         }
+        public static bool ConfereUsuario(string usuario)
+        {
+            string confere = UsuarioDB.SelectUsuario(usuario);
+            if (usuario != confere)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
     }
 }

@@ -40,6 +40,7 @@ namespace BGM_FORMS.View
             this.imgmaosacordos = new System.Windows.Forms.PictureBox();
             this.imgmarteloajuizado = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.MenuLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgdocumentomenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgmaosacordos)).BeginInit();
@@ -50,6 +51,7 @@ namespace BGM_FORMS.View
             // MenuLateral
             // 
             this.MenuLateral.BackColor = System.Drawing.Color.White;
+            this.MenuLateral.Controls.Add(this.button1);
             this.MenuLateral.Controls.Add(this.lblNomeVazio);
             this.MenuLateral.Controls.Add(this.label1);
             this.MenuLateral.Controls.Add(this.imgdocumentomenu);
@@ -174,6 +176,16 @@ namespace BGM_FORMS.View
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 440);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MenuScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
@@ -209,5 +221,6 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox imgdocumentomenu;
         private System.Windows.Forms.Label lblNomeVazio;
+        private System.Windows.Forms.Button button1;
     }
 }

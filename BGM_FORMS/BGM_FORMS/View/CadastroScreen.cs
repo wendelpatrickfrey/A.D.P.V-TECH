@@ -22,32 +22,41 @@ namespace BGM_FORMS.View
         {
             cbFuncao.Items.Add("Admin");
             cbFuncao.Items.Add("Analista");
+            cbFuncao.Text = "Analista";
         }
 
         private void btncadastrar_Click(object sender, EventArgs e)
         {
             int temp = 0;
-            if (txtsenha.Text == txtConfirmaSenha.Text)
+            if (Controller.ConfereUsuario(txtusuario.Text))
             {
-                if (cbFuncao.Text == "Admin")
+
+                if (txtsenha.Text == txtConfirmaSenha.Text)
                 {
-                    temp = 1;
-                    Controller.InsereCadastro(txtnome.Text, txtusuario.Text, txtsenha.Text,temp);
-                    MessageBox.Show("Administrador adicionado");
-                    Clear();
+                    if (cbFuncao.Text == "Admin")
+                    {
+                        temp = 1;
+                        Controller.InsereCadastro(txtnome.Text, txtusuario.Text, txtsenha.Text, temp);
+                        MessageBox.Show("Administrador adicionado");
+                        Clear();
+                    }
+                    else
+                    {
+                        Controller.InsereCadastro(txtnome.Text, txtusuario.Text, txtsenha.Text, temp);
+                        MessageBox.Show("Analista adicionado");
+                        Clear();
+                    }
                 }
                 else
                 {
-                    Controller.InsereCadastro(txtnome.Text, txtusuario.Text, txtsenha.Text, temp);
-                    MessageBox.Show("Analista adicionado");
-                    Clear();
+                    MessageBox.Show("As senhas não coincidem");
                 }
+
             }
             else
             {
-                MessageBox.Show("As senhas não coincidem");
+                MessageBox.Show("Usuario já existente");
             }
-            
         }
         public void Clear()
         {
@@ -58,7 +67,7 @@ namespace BGM_FORMS.View
             cbFuncao.Text = "";
         }
 
-        
+
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {

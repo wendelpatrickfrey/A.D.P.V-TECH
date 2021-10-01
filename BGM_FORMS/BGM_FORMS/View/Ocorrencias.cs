@@ -61,5 +61,18 @@ namespace BGM_FORMS.View
             new MenuScreen().Show();
             this.Close();
         }
+
+        private void Ocorrencias_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnadicionar_Click(object sender, EventArgs e)
+        {
+            new AdicionaOcorrencia().Show();
+            this.Close();
+
+
+        }
     }
 }

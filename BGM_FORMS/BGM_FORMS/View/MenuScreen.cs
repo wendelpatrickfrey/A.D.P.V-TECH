@@ -81,5 +81,11 @@ namespace BGM_FORMS.View
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new CadastroScreen().Show();
+            this.Hide();
+        }
     }
 }

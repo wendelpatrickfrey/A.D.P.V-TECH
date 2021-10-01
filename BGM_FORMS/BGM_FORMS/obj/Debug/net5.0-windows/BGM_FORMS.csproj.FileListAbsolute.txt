@@ -31,3 +31,37 @@ C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\D
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Ocorrencias.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Acordo.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Ajuizado.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BGM_FORMS.exe
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BGM_FORMS.deps.json
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BGM_FORMS.runtimeconfig.json
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BGM_FORMS.runtimeconfig.dev.json
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BGM_FORMS.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\ref\BGM_FORMS.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BGM_FORMS.pdb
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.csproj.AssemblyReference.cache
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.Properties.Resources.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Acordo.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.AdminScreen.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Ajuizado.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.AnalistaScreen.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.CadastroScreen.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.LoginScreen.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.MenuScreen.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.Ocorrencias.resources
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.csproj.GenerateResource.cache
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.AssemblyInfoInputs.cache
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.AssemblyInfo.cs
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.csproj.CoreCompileInputs.cache
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.csproj.CopyComplete
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\ref\BGM_FORMS.dll
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.pdb
+C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.genruntimeconfig.cache
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.AdicionaOcorrencia.resources

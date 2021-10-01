@@ -36,10 +36,10 @@ namespace BGM_FORMS.View
             // 
             this.btnfecharOcorrencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnfecharOcorrencia.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnfecharOcorrencia.Location = new System.Drawing.Point(854, 16);
+            this.btnfecharOcorrencia.Location = new System.Drawing.Point(905, 7);
             this.btnfecharOcorrencia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
-            this.btnfecharOcorrencia.Size = new System.Drawing.Size(97, 58);
+            this.btnfecharOcorrencia.Size = new System.Drawing.Size(82, 58);
             this.btnfecharOcorrencia.TabIndex = 1;
             this.btnfecharOcorrencia.Text = "<--";
             this.btnfecharOcorrencia.UseVisualStyleBackColor = true;

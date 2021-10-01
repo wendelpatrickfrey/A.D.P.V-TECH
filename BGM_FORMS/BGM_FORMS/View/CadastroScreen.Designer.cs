@@ -212,7 +212,7 @@ namespace BGM_FORMS.View
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CadastroScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CadastroScreen";
+            this.Text = "U";
             this.Load += new System.EventHandler(this.CadastroScreen_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
