@@ -29,40 +29,25 @@ namespace BGM_FORMS.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnfecharOcorrencia = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnfecharOcorrencia
-            // 
-            this.btnfecharOcorrencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnfecharOcorrencia.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnfecharOcorrencia.Location = new System.Drawing.Point(898, 16);
-            this.btnfecharOcorrencia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
-            this.btnfecharOcorrencia.Size = new System.Drawing.Size(87, 54);
-            this.btnfecharOcorrencia.TabIndex = 1;
-            this.btnfecharOcorrencia.Text = "<--";
-            this.btnfecharOcorrencia.UseVisualStyleBackColor = true;
-            this.btnfecharOcorrencia.Click += new System.EventHandler(this.btnfecharOcorrencia_Click);
             // 
             // Acordo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ClientSize = new System.Drawing.Size(1014, 586);
-            this.Controls.Add(this.btnfecharOcorrencia);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1236, 704);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Acordo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Acordo";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnfecharOcorrencia;
     }
 }

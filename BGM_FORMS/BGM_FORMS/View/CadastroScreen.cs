@@ -17,15 +17,34 @@ namespace BGM_FORMS.View
         {
             InitializeComponent();
         }
-
         private void CadastroScreen_Load(object sender, EventArgs e)
         {
             cbFuncao.Items.Add("Admin");
             cbFuncao.Items.Add("Analista");
             cbFuncao.Text = "Analista";
-        }
-
-        private void btncadastrar_Click(object sender, EventArgs e)
+        }//Adiciona opção na combobox
+        public void Clear()
+        {
+            txtnome.Clear();
+            txtusuario.Clear();
+            txtsenha.Clear();
+            txtConfirmaSenha.Clear();
+            cbFuncao.Text = "";
+        }//Limpa as textbox
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                txtsenha.PasswordChar = '\0';
+                txtConfirmaSenha.PasswordChar = '\0';
+            }
+            else
+            {
+                txtsenha.PasswordChar = '*';
+                txtConfirmaSenha.PasswordChar = '*';
+            }
+        }//Checkbox mostrar senha
+        private void btncadastrar_Click(object sender, EventArgs e)//Botão de cadastro
         {
             int temp = 0;
             if (Controller.ConfereUsuario(txtusuario.Text))
@@ -58,29 +77,17 @@ namespace BGM_FORMS.View
                 MessageBox.Show("Usuario já existente");
             }
         }
-        public void Clear()
+
+        private void btnvoltarcadastro_Click(object sender, EventArgs e)
         {
-            txtnome.Clear();
-            txtusuario.Clear();
-            txtsenha.Clear();
-            txtConfirmaSenha.Clear();
-            cbFuncao.Text = "";
+            new MenuScreen().Show();
+            this.Close();
         }
 
-
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (checkBox2.Checked)
-            {
-                txtsenha.PasswordChar = '\0';
-                txtConfirmaSenha.PasswordChar = '\0';
-            }
-            else
-            {
-                txtsenha.PasswordChar = '*';
-                txtConfirmaSenha.PasswordChar = '*';
-            }
+            new MenuScreen().Show();
+            this.Close();
         }
     }
 }

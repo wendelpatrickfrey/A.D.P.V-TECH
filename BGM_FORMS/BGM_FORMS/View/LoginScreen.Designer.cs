@@ -43,12 +43,12 @@ namespace BGM_FORMS
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Console", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Location = new System.Drawing.Point(153, 45);
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(142, 33);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 53);
+            this.label1.Size = new System.Drawing.Size(204, 66);
             this.label1.TabIndex = 0;
             this.label1.Text = "LOGIN";
             // 
@@ -62,7 +62,7 @@ namespace BGM_FORMS
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(64, 122);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 37);
@@ -72,7 +72,7 @@ namespace BGM_FORMS
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(64, 243);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 37);
@@ -89,10 +89,11 @@ namespace BGM_FORMS
             // 
             // btnlogar
             // 
-            this.btnlogar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnlogar.BackColor = System.Drawing.Color.MidnightBlue;
             this.btnlogar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlogar.Font = new System.Drawing.Font("MS Reference Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnlogar.ForeColor = System.Drawing.Color.White;
-            this.btnlogar.Location = new System.Drawing.Point(188, 356);
+            this.btnlogar.Location = new System.Drawing.Point(186, 353);
             this.btnlogar.Name = "btnlogar";
             this.btnlogar.Size = new System.Drawing.Size(109, 52);
             this.btnlogar.TabIndex = 5;
@@ -103,7 +104,8 @@ namespace BGM_FORMS
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(445, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(33, 37);
@@ -115,6 +117,7 @@ namespace BGM_FORMS
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox1.ForeColor = System.Drawing.Color.White;
             this.checkBox1.Location = new System.Drawing.Point(318, 332);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(112, 25);
@@ -127,7 +130,7 @@ namespace BGM_FORMS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(488, 464);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label4);

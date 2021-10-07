@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BGM_FORMS.Control;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,15 +65,53 @@ namespace BGM_FORMS.View
 
         private void Ocorrencias_Load(object sender, EventArgs e)
         {
+            AtualizaDG();
+        }
+        private void AtualizaDG()
+        {
+            List<string[]> elementos = Controller.SelecionaOcorrencia();
+            DGVocorrencias.Rows.Clear();
+            foreach (var item in elementos)
+            {
+                DGVocorrencias.Rows.Add(item);
+            }
+        }
 
+        
+
+        private void btneditar_Click(object sender, EventArgs e)//Tela Editar ocorrências
+        {
+            new EditaOcorencia().Show();
+            this.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }//Fechar ocorrências
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)//Botão voltar ocorrências
+        {
+            new MenuScreen().Show();
+            this.Close();
         }
 
         private void btnadicionar_Click(object sender, EventArgs e)
         {
             new AdicionaOcorrencia().Show();
             this.Close();
+        }
 
+        private void btneditar_Click_1(object sender, EventArgs e)
+        {
+            new EditaOcorencia().Show();
+            this.Close();
+        }
 
+        private void btnremover_Click(object sender, EventArgs e)
+        {
+            new RemoveOcorrencia().Show();
+            this.Close();
         }
     }
 }

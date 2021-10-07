@@ -65,3 +65,13 @@ C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORM
 C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.pdb
 C:\Users\wendel.frey\Downloads\A.D.P.V-TECH\A.D.P.V-TECH-main\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.genruntimeconfig.cache
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.AdicionaOcorrencia.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\Zstandard.Net.dll
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.EditaOcorencia.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.RemoveOcorrencia.resources

@@ -27,3 +27,4 @@ create table dbo.OcorrenciasBGM(
 	CONSTRAINT fk_idTerceiro FOREIGN KEY(idOcorrencias) references dbo.TerceiroBGM (idTerceiro),
 	CONSTRAINT fk_idDescricao FOREIGN KEY(idOcorrencias) references dbo.DescricaoOcorrencias (idDescricao)
   )
+

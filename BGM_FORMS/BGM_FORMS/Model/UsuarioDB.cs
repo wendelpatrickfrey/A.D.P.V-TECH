@@ -21,7 +21,7 @@ namespace BGM_FORMS.Model
         }
         public static int Login(string usuario, string senha)
         {
-            int temp = 0;
+            int temp;
             string select = $"SELECT Funcao from dbo.CadastroBGM WHERE Usuario = '{usuario}' AND Senha = '{senha}'";
             SqlCommand cmd = new SqlCommand(select,DBConnection.Connection);
             DBConnection.Connection.Open();
@@ -54,5 +54,6 @@ namespace BGM_FORMS.Model
 
             return confere;
         }
+
     }
 }

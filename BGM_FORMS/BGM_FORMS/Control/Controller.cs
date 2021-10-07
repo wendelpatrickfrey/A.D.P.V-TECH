@@ -46,5 +46,30 @@ namespace BGM_FORMS.Control
             }
 
         }
+        public static bool InsereTerceiro(int status,string nome, string CPF, string CNPJ, string CNH, string RENAVAM, string EMAIL, string TELEFONE, string CEP)
+        {
+            return OcorrenciaDB.InsereTerceiro(status,nome,CPF,CNPJ,CNH,RENAVAM,EMAIL,TELEFONE,CEP);
+        }
+        public static bool ConfereCpf(string terceiro,string cpf)
+        {
+            if (OcorrenciaDB.ConfereCPF(terceiro) == cpf)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        public static bool InsereOcorrencia(string numero, string data, double valor, int status,string nome, string cpf, string CNPJ, string CNH, string RENAVAM, string EMAIL, string TELEFONE, string CEP)
+        {
+
+            return OcorrenciaDB.InsereOcorrencia(numero,data,valor,status,nome,cpf,CNPJ,CNH,RENAVAM,EMAIL,TELEFONE,CEP);
+        }
+        public static List<string[]> SelecionaOcorrencia()
+        {
+            List<string[]> lista = OcorrenciaDB.SelecionaOcorrencia();
+            return lista;
+        }
     }
 }

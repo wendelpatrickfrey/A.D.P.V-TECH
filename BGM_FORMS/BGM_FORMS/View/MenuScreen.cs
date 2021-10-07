@@ -25,6 +25,35 @@ namespace BGM_FORMS.View
             //btnMenu.BackColor = Color.Transparent;
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            new Ocorrencias().Show();
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            new Acordo().Show();
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            new Ajuizado().Show();
+            this.Close();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            new CadastroScreen().Show();
+            this.Close();
+        }
+
 
         //MenuLateral "animação"
         //private void btnMenu_Click(object sender, EventArgs e)
@@ -39,53 +68,18 @@ namespace BGM_FORMS.View
         //    }
         //}
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            new Acordo().Show();
-            this.Hide();
-        }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            new Ocorrencias().Show();
-            this.Hide();
-        }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            new Ajuizado().Show();
-            this.Hide();
-        }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void lblNomeVazio_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            new CadastroScreen().Show();
-            this.Hide();
-        }
     }
 }
