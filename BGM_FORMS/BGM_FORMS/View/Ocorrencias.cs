@@ -69,12 +69,12 @@ namespace BGM_FORMS.View
         }
         private void AtualizaDG()
         {
-            List<string[]> elementos = Controller.SelecionaOcorrencia();
-            DGVocorrencias.Rows.Clear();
-            foreach (var item in elementos)
-            {
-                DGVocorrencias.Rows.Add(item);
-            }
+            //List<string[]> elementos = Controller.SelecionaOcorrencia();
+            //DGVocorrencias.Rows.Clear();
+            //foreach (var item in elementos)
+            //{
+            //    DGVocorrencias.Rows.Add(item);
+            //}
         }
 
         

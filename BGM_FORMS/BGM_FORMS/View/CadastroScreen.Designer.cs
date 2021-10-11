@@ -1,7 +1,7 @@
 ﻿
 namespace BGM_FORMS.View
 {
-    partial class CadastroScreen
+    partial class CadastroLoginScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -29,34 +29,23 @@ namespace BGM_FORMS.View
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroScreen));
-            this.txtnome = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroLoginScreen));
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.txtsenha = new System.Windows.Forms.TextBox();
-            this.lblnome = new System.Windows.Forms.Label();
             this.lblusuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbFuncao = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtConfirmaSenha = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.btncadastrar = new BGM_FORMS.BotaoPersonalizado.BotaoBGM();
+            this.btncadastrarlogin = new BGM_FORMS.BotaoPersonalizado.BotaoBGM();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblnome = new System.Windows.Forms.Label();
+            this.txtnome = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtnome
-            // 
-            this.txtnome.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtnome.Location = new System.Drawing.Point(192, 217);
-            this.txtnome.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.txtnome.Name = "txtnome";
-            this.txtnome.Size = new System.Drawing.Size(329, 31);
-            this.txtnome.TabIndex = 0;
             // 
             // txtusuario
             // 
@@ -77,16 +66,6 @@ namespace BGM_FORMS.View
             this.txtsenha.Size = new System.Drawing.Size(329, 31);
             this.txtsenha.TabIndex = 2;
             // 
-            // lblnome
-            // 
-            this.lblnome.AutoSize = true;
-            this.lblnome.Font = new System.Drawing.Font("MS Reference Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblnome.Location = new System.Drawing.Point(192, 156);
-            this.lblnome.Name = "lblnome";
-            this.lblnome.Size = new System.Drawing.Size(139, 49);
-            this.lblnome.TabIndex = 4;
-            this.lblnome.Text = "Nome";
-            // 
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
@@ -106,26 +85,6 @@ namespace BGM_FORMS.View
             this.label1.Size = new System.Drawing.Size(147, 49);
             this.label1.TabIndex = 6;
             this.label1.Text = "Senha";
-            // 
-            // cbFuncao
-            // 
-            this.cbFuncao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbFuncao.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbFuncao.FormattingEnabled = true;
-            this.cbFuncao.Location = new System.Drawing.Point(508, 474);
-            this.cbFuncao.Name = "cbFuncao";
-            this.cbFuncao.Size = new System.Drawing.Size(230, 25);
-            this.cbFuncao.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(540, 422);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 49);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Função";
             // 
             // label3
             // 
@@ -151,7 +110,7 @@ namespace BGM_FORMS.View
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox2.Location = new System.Drawing.Point(940, 394);
+            this.checkBox2.Location = new System.Drawing.Point(951, 353);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(134, 32);
             this.checkBox2.TabIndex = 15;
@@ -159,25 +118,25 @@ namespace BGM_FORMS.View
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // btncadastrar
+            // btncadastrarlogin
             // 
-            this.btncadastrar.BackColor = System.Drawing.Color.MidnightBlue;
-            this.btncadastrar.BackgroundColor = System.Drawing.Color.MidnightBlue;
-            this.btncadastrar.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btncadastrar.BorderRadius = 20;
-            this.btncadastrar.BorderSize = 0;
-            this.btncadastrar.FlatAppearance.BorderSize = 0;
-            this.btncadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btncadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncadastrar.ForeColor = System.Drawing.Color.White;
-            this.btncadastrar.Location = new System.Drawing.Point(468, 541);
-            this.btncadastrar.Name = "btncadastrar";
-            this.btncadastrar.Size = new System.Drawing.Size(302, 104);
-            this.btncadastrar.TabIndex = 16;
-            this.btncadastrar.Text = "Cadastrar";
-            this.btncadastrar.TextColor = System.Drawing.Color.White;
-            this.btncadastrar.UseVisualStyleBackColor = false;
-            this.btncadastrar.Click += new System.EventHandler(this.btncadastrar_Click);
+            this.btncadastrarlogin.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btncadastrarlogin.BackgroundColor = System.Drawing.Color.MidnightBlue;
+            this.btncadastrarlogin.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btncadastrarlogin.BorderRadius = 20;
+            this.btncadastrarlogin.BorderSize = 0;
+            this.btncadastrarlogin.FlatAppearance.BorderSize = 0;
+            this.btncadastrarlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btncadastrarlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncadastrarlogin.ForeColor = System.Drawing.Color.White;
+            this.btncadastrarlogin.Location = new System.Drawing.Point(468, 541);
+            this.btncadastrarlogin.Name = "btncadastrarlogin";
+            this.btncadastrarlogin.Size = new System.Drawing.Size(302, 104);
+            this.btncadastrarlogin.TabIndex = 16;
+            this.btncadastrarlogin.Text = "Cadastrar";
+            this.btncadastrarlogin.TextColor = System.Drawing.Color.White;
+            this.btncadastrarlogin.UseVisualStyleBackColor = false;
+            this.btncadastrarlogin.Click += new System.EventHandler(this.btncadastrar_Click);
             // 
             // panel1
             // 
@@ -212,19 +171,36 @@ namespace BGM_FORMS.View
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // CadastroScreen
+            // lblnome
+            // 
+            this.lblnome.AutoSize = true;
+            this.lblnome.Font = new System.Drawing.Font("MS Reference Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblnome.Location = new System.Drawing.Point(192, 156);
+            this.lblnome.Name = "lblnome";
+            this.lblnome.Size = new System.Drawing.Size(139, 49);
+            this.lblnome.TabIndex = 4;
+            this.lblnome.Text = "Nome";
+            // 
+            // txtnome
+            // 
+            this.txtnome.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtnome.Location = new System.Drawing.Point(192, 217);
+            this.txtnome.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.txtnome.Name = "txtnome";
+            this.txtnome.Size = new System.Drawing.Size(329, 31);
+            this.txtnome.TabIndex = 0;
+            // 
+            // CadastroLoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1220, 665);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btncadastrar);
+            this.Controls.Add(this.btncadastrarlogin);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtConfirmaSenha);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbFuncao);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblusuario);
             this.Controls.Add(this.lblnome);
@@ -234,10 +210,9 @@ namespace BGM_FORMS.View
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.Name = "CadastroScreen";
+            this.Name = "CadastroLoginScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "U";
-            this.Load += new System.EventHandler(this.CadastroScreen_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -247,21 +222,18 @@ namespace BGM_FORMS.View
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtnome;
         private System.Windows.Forms.TextBox txtusuario;
         private System.Windows.Forms.TextBox txtsenha;
-        private System.Windows.Forms.Label lblnome;
         private System.Windows.Forms.Label lblusuario;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbFuncao;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtConfirmaSenha;
         private System.Windows.Forms.CheckBox checkBox2;
-        private BotaoPersonalizado.BotaoBGM btncadastrar;
+        private BotaoPersonalizado.BotaoBGM btncadastrarlogin;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblnome;
+        private System.Windows.Forms.TextBox txtnome;
     }
 }

@@ -39,34 +39,28 @@ namespace BGM_FORMS.View
             this.label26 = new System.Windows.Forms.Label();
             this.cbjuridico = new System.Windows.Forms.CheckBox();
             this.cbfisico = new System.Windows.Forms.CheckBox();
-            this.label23 = new System.Windows.Forms.Label();
             this.txtCNPJ = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.txtComplemento = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtCPF = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbAnalista = new System.Windows.Forms.ComboBox();
             this.txtCEP = new System.Windows.Forms.TextBox();
             this.txtTerceiro = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtValor = new System.Windows.Forms.TextBox();
-            this.txtData = new System.Windows.Forms.TextBox();
             this.txtnumeroocorrencia = new System.Windows.Forms.TextBox();
             this.btnadicionar = new BGM_FORMS.BotaoPersonalizado.BotaoBGM();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -160,17 +154,6 @@ namespace BGM_FORMS.View
             this.cbfisico.Text = "Físico";
             this.cbfisico.UseVisualStyleBackColor = true;
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.ForeColor = System.Drawing.Color.Red;
-            this.label23.Location = new System.Drawing.Point(100, 371);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(28, 37);
-            this.label23.TabIndex = 121;
-            this.label23.Text = "*";
-            // 
             // txtCNPJ
             // 
             this.txtCNPJ.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -224,28 +207,6 @@ namespace BGM_FORMS.View
             this.label12.TabIndex = 115;
             this.label12.Text = "*";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(91, 198);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 37);
-            this.label11.TabIndex = 114;
-            this.label11.Text = "*";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(129, 286);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(28, 37);
-            this.label10.TabIndex = 113;
-            this.label10.Text = "*";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -272,16 +233,6 @@ namespace BGM_FORMS.View
             this.label8.TabIndex = 110;
             this.label8.Text = "CEP";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(29, 286);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 37);
-            this.label7.TabIndex = 109;
-            this.label7.Text = "Analista";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -291,15 +242,6 @@ namespace BGM_FORMS.View
             this.label6.TabIndex = 108;
             this.label6.Text = "Nome do Terceiro";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 371);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 37);
-            this.label5.TabIndex = 107;
-            this.label5.Text = "Valor";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -308,15 +250,6 @@ namespace BGM_FORMS.View
             this.label4.Size = new System.Drawing.Size(82, 37);
             this.label4.TabIndex = 106;
             this.label4.Text = "Email";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 198);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 37);
-            this.label3.TabIndex = 105;
-            this.label3.Text = "Data";
             // 
             // label2
             // 
@@ -336,16 +269,6 @@ namespace BGM_FORMS.View
             this.label1.Size = new System.Drawing.Size(282, 37);
             this.label1.TabIndex = 103;
             this.label1.Text = "Número da ocorrência";
-            // 
-            // cbAnalista
-            // 
-            this.cbAnalista.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnalista.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbAnalista.FormattingEnabled = true;
-            this.cbAnalista.Location = new System.Drawing.Point(29, 326);
-            this.cbAnalista.Name = "cbAnalista";
-            this.cbAnalista.Size = new System.Drawing.Size(267, 36);
-            this.cbAnalista.TabIndex = 102;
             // 
             // txtCEP
             // 
@@ -382,18 +305,10 @@ namespace BGM_FORMS.View
             // txtValor
             // 
             this.txtValor.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtValor.Location = new System.Drawing.Point(29, 411);
+            this.txtValor.Location = new System.Drawing.Point(29, 252);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(267, 34);
             this.txtValor.TabIndex = 97;
-            // 
-            // txtData
-            // 
-            this.txtData.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtData.Location = new System.Drawing.Point(29, 238);
-            this.txtData.Name = "txtData";
-            this.txtData.Size = new System.Drawing.Size(267, 34);
-            this.txtData.TabIndex = 96;
             // 
             // txtnumeroocorrencia
             // 
@@ -426,6 +341,26 @@ namespace BGM_FORMS.View
             this.btnadicionar.UseVisualStyleBackColor = false;
             this.btnadicionar.Click += new System.EventHandler(this.btnadicionar_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(29, 212);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 37);
+            this.label5.TabIndex = 107;
+            this.label5.Text = "Valor";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.ForeColor = System.Drawing.Color.Red;
+            this.label23.Location = new System.Drawing.Point(100, 212);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(28, 37);
+            this.label23.TabIndex = 121;
+            this.label23.Text = "*";
+            // 
             // AdicionaOcorrencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
@@ -446,25 +381,19 @@ namespace BGM_FORMS.View
             this.Controls.Add(this.label17);
             this.Controls.Add(this.txtComplemento);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtCPF);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.cbAnalista);
             this.Controls.Add(this.txtCEP);
             this.Controls.Add(this.txtTerceiro);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtValor);
-            this.Controls.Add(this.txtData);
             this.Controls.Add(this.txtnumeroocorrencia);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -493,33 +422,27 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.CheckBox cbjuridico;
         private System.Windows.Forms.CheckBox cbfisico;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox txtCNPJ;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtComplemento;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtCPF;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbAnalista;
         private System.Windows.Forms.TextBox txtCEP;
         private System.Windows.Forms.TextBox txtTerceiro;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtValor;
-        private System.Windows.Forms.TextBox txtData;
         private System.Windows.Forms.TextBox txtnumeroocorrencia;
         private BotaoPersonalizado.BotaoBGM btnadicionar;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label23;
     }
 }

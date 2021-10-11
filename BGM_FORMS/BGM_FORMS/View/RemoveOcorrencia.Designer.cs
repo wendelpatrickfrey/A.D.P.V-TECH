@@ -101,6 +101,7 @@ namespace BGM_FORMS.View
             this.btnremover.Text = "CONFIRMAR";
             this.btnremover.TextColor = System.Drawing.Color.White;
             this.btnremover.UseVisualStyleBackColor = false;
+            this.btnremover.Click += new System.EventHandler(this.btnremover_Click);
             // 
             // dataGridView1
             // 

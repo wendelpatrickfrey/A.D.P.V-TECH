@@ -67,6 +67,7 @@ namespace BGM_FORMS.View
             this.panel1 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -392,6 +393,7 @@ namespace BGM_FORMS.View
             this.btnadicionar.Text = "CONFIRMAR";
             this.btnadicionar.TextColor = System.Drawing.Color.White;
             this.btnadicionar.UseVisualStyleBackColor = false;
+            this.btnadicionar.Click += new System.EventHandler(this.btnadicionar_Click);
             // 
             // panel1
             // 
@@ -426,12 +428,23 @@ namespace BGM_FORMS.View
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.White;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateTimePicker1.Location = new System.Drawing.Point(227, 553);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(296, 25);
+            this.dateTimePicker1.TabIndex = 98;
+            // 
             // EditaOcorencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1220, 665);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnadicionar);
@@ -521,5 +534,6 @@ namespace BGM_FORMS.View
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

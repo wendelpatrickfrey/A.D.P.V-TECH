@@ -29,40 +29,40 @@ namespace BGM_FORMS.View
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnfecharOcorrencia = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnfecharOcorrencia
+            // label1
             // 
-            this.btnfecharOcorrencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnfecharOcorrencia.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnfecharOcorrencia.Location = new System.Drawing.Point(905, 7);
-            this.btnfecharOcorrencia.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.btnfecharOcorrencia.Name = "btnfecharOcorrencia";
-            this.btnfecharOcorrencia.Size = new System.Drawing.Size(82, 58);
-            this.btnfecharOcorrencia.TabIndex = 1;
-            this.btnfecharOcorrencia.Text = "<--";
-            this.btnfecharOcorrencia.UseVisualStyleBackColor = true;
-            this.btnfecharOcorrencia.Click += new System.EventHandler(this.btnfecharOcorrencia_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(218, 297);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(779, 79);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "TELA NÃO FINALIZADA";
             // 
             // Ajuizado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ClientSize = new System.Drawing.Size(1014, 586);
-            this.Controls.Add(this.btnfecharOcorrencia);
+            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.ClientSize = new System.Drawing.Size(1236, 704);
+            this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Ajuizado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ajuizado";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnfecharOcorrencia;
+        private System.Windows.Forms.Label label1;
     }
 }

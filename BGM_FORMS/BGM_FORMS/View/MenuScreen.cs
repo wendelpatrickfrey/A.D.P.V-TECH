@@ -50,7 +50,7 @@ namespace BGM_FORMS.View
 
         private void label5_Click(object sender, EventArgs e)
         {
-            new CadastroScreen().Show();
+            new CadastroFuncionarioScreen().Show();
             this.Close();
         }
 

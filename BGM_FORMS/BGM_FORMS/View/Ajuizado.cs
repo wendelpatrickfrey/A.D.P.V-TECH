@@ -21,5 +21,7 @@ namespace BGM_FORMS.View
         {
             this.Close(); 
         }
+
+      
     }
 }

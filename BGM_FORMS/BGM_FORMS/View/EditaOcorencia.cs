@@ -50,5 +50,10 @@ namespace BGM_FORMS.View
             new Ocorrencias().Show();
             this.Close();
         }
+
+        private void btnadicionar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -169,11 +169,11 @@ namespace BGM_FORMS.View
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("MS Reference Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(940, 18);
+            this.label5.Location = new System.Drawing.Point(880, 21);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(221, 22);
+            this.label5.Size = new System.Drawing.Size(270, 22);
             this.label5.TabIndex = 10;
-            this.label5.Text = "CADASTRAR USUÁRIO";
+            this.label5.Text = "CADASTRAR FUNCIONÁRIO";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox5

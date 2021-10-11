@@ -19,6 +19,9 @@
     <Compile Update="View\AnalistaScreen.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\CadastroFuncionarioScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\CadastroScreen.cs">
       <SubType>Form</SubType>
     </Compile>

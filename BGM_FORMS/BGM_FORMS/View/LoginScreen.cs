@@ -21,21 +21,21 @@ namespace BGM_FORMS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new CadastroScreen().Show();
+            new CadastroLoginScreen().Show();
             this.Hide();
         }
 
         private void btnlogar_Click(object sender, EventArgs e)
         {
-            int funcao = Controller.Login(txtusuario.Text,txtsenha.Text);
-            if (funcao != -1)
+            bool funcao = Controller.Login(txtusuario.Text, txtsenha.Text);
+            if (funcao)
             {
                 new MenuScreen().Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Credenciais Incorretas");
+                MessageBox.Show("credenciais incorretas");
             }
             txtusuario.Clear();
             txtsenha.Clear();

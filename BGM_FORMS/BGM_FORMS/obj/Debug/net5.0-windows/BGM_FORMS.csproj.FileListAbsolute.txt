@@ -16,7 +16,6 @@ C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\D
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.pdb
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.genruntimeconfig.cache
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.Properties.Resources.resources
-C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.CadastroScreen.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.LoginScreen.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
@@ -75,3 +74,5 @@ C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\D
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\bin\Debug\net5.0-windows\Zstandard.Net.dll
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.EditaOcorencia.resources
 C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.RemoveOcorrencia.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.CadastroLoginScreen.resources
+C:\Users\wendel.frey\Documents\GitHub TCC\A.D.P.V-TECH\BGM_FORMS\BGM_FORMS\obj\Debug\net5.0-windows\BGM_FORMS.View.CadastroFuncionarioScreen.resources

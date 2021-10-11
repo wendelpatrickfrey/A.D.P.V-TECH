@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -60,40 +61,12 @@ namespace BGM_FORMS.View
 
         private void btnadicionar_Click(object sender, EventArgs e)
         {
-            int status;
-            if (cbfisico.Checked)
-            {
-                status = 1;
-                if (Controller.InsereOcorrencia(txtNumero.Text, txtData.Text, Convert.ToDouble(txtValor.Text), status, txtTerceiro.Text, txtCPF.Text, txtCNPJ.Text, txtCNH.Text, txtRenavam.Text, txtEmail.Text, txtTelefone.Text, txtCEP.Text))
-                {
-                    Controller.InsereTerceiro(status, txtTerceiro.Text, txtCPF.Text, txtCNPJ.Text, txtCNH.Text, txtRenavam.Text, txtEmail.Text, txtTelefone.Text, txtCEP.Text);
+            
 
-                    Controller.InsereOcorrencia(txtNumero.Text, txtData.Text, Convert.ToDouble(txtValor.Text), status, txtTerceiro.Text, txtCPF.Text, txtCNPJ.Text, txtCNH.Text, txtRenavam.Text, txtEmail.Text, txtTelefone.Text, txtCEP.Text);
+            //Controller.InsereOcorrencia(19870130, 19870130, txtnumeroocorrencia.Text, 182392.20/* Convert.ToDouble(txtValor.Text.Replace('.', ',').ToString(CultureInfo.InvariantCulture))*/);
+            //MessageBox.Show("Ocorrência cadastrado com sucesso");
 
-                    MessageBox.Show("Ocorrencia cadastrada com sucesso");
 
-                }
-                else
-                {
-                    MessageBox.Show("Erro na requisição");
-                }
-            }
-            else if (cbjuridico.Checked)
-            {
-                status = 0;
-                if (Controller.InsereOcorrencia(txtNumero.Text, txtData.Text, Convert.ToDouble(txtValor.Text), status, txtTerceiro.Text, txtCPF.Text, txtCNPJ.Text, txtCNH.Text, txtRenavam.Text, txtEmail.Text, txtTelefone.Text, txtCEP.Text))
-                {
-                    Controller.InsereTerceiro(status, txtTerceiro.Text, txtCPF.Text, txtCNPJ.Text, txtCNH.Text, txtRenavam.Text, txtEmail.Text, txtTelefone.Text, txtCEP.Text);
-
-                    Controller.InsereOcorrencia(txtNumero.Text, txtData.Text, Convert.ToDouble(txtValor.Text), status, txtTerceiro.Text, txtCPF.Text, txtCNPJ.Text, txtCNH.Text, txtRenavam.Text, txtEmail.Text, txtTelefone.Text, txtCEP.Text);
-
-                    MessageBox.Show("Ocorrencia cadastrada com sucesso");
-                }
-                else
-                {
-                    MessageBox.Show("Erro na requisição");
-                }
-            }
         }//Adiciona a ocorrência
     }
 }

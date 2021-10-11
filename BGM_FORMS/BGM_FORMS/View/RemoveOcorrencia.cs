@@ -21,6 +21,11 @@ namespace BGM_FORMS.View
         {
             new Ocorrencias().Show();
             this.Close();
-        }     
+        }
+
+        private void btnremover_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
